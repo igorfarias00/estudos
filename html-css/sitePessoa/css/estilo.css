@@ -1,7 +1,8 @@
-body {
+ul#menu {
     text-align: center;
 }
 
-ul {
-    text-align: center;
+
+p#arrow {
+    color: transparent;
 }
