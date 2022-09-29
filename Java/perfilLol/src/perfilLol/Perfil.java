@@ -35,6 +35,9 @@ public class Perfil {
 		System.out.println("Level: " + perfil_json.get("summonerLevel"));
 		System.out.println("id:" + perfil_json.get("id"));
 		System.out.println("puuid: " +perfil_json.get("puuid"));
+		this.setPuuid(perfil_json.get("puuid").toString());
+		
+		
 		System.out.println("accountId: " + perfil_json.get("accountId"));
 
 	}
@@ -60,5 +63,13 @@ public class Perfil {
 	        } catch (Exception e) {
 	            throw new Exception("ERRO: " + e);
 	        }
-	    }
+	 }
+	 
+	 public void setPuuid(String puuid) {
+		 this.puuid = puuid;
+	 }
+	 
+	 public String getPuuid() {
+		 return this.puuid;
+	 }
 }
