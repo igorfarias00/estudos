@@ -22,11 +22,8 @@ public class Partida {
 		
 		JSONObject match = new JSONObject(buscaPartida(jogador.matches.matchIds[0]));
 		
-	//	for(int i= 0; i < jogador.matches.matchIds.length; i++ ) {
-	//		System.out.println(buscaPartida(jogador.matches.matchIds[i]));
-	//	}
 		
-	System.out.println(match);
+		System.out.println(match);
 		
 	}
 	

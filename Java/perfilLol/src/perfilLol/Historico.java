@@ -6,20 +6,21 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Historico {
-	String matchIds[];
+	public String matchIds[];
 	
-	Perfil jogadores [];
-	public String key = "RGAPI-f79892b8-2b58-4712-b4b2-1c27900bb464";
+	public Perfil jogador;
+	
 	
 	public Historico(Perfil jogador) throws Exception {
-		String matchs = searchMatches(jogador);
-		
+		this.jogador = jogador;
+		String matchs = searchMatches();
 		
 		matchs = matchs.replace("\"", "");
 		matchs = matchs.replace("[", "");
 		matchs = matchs.replace("]", "");
 		
 		this.matchIds = matchs.split(",");
+		
 		
 		
 		
@@ -32,8 +33,8 @@ public class Historico {
 	}
 	
 	
-	public String searchMatches(Perfil jogador) throws Exception  {
-		String urlParaChamada = "https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/"+ jogador.getPuuid() + "/ids?start=0&count=20&api_key=" + key;
+	public String searchMatches() throws Exception  {
+		String urlParaChamada = "https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/"+ this.jogador.getPuuid() + "/ids?start=0&count=20&api_key=" + this.jogador.key;
         
 		
 		try {

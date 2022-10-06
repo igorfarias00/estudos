@@ -25,9 +25,10 @@ public class Perfil {
 	public String invocador;
 	public Historico matches;
 	
-	public String key = "RGAPI-f79892b8-2b58-4712-b4b2-1c27900bb464";
+	public String key;
 	
 	public Perfil(String invocador) throws Exception {
+		this.key = "RGAPI-41bc2011-0c7c-44a4-8595-8ca2ce06dea3";
 		JSONObject perfil_json = new JSONObject(buscaPerfil(invocador));
 		
 		//System.out.println(buscaPerfil(invocador)); // testa se e a conexão esta retornando o json completo
@@ -38,6 +39,7 @@ public class Perfil {
 		System.out.println("puuid: " +perfil_json.get("puuid"));
 		this.setPuuid(perfil_json.get("puuid").toString());
 		System.out.println("accountId: " + perfil_json.get("accountId"));
+		
 		
 		this.matches = new Historico(this);
 
