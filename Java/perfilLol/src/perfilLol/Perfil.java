@@ -23,8 +23,9 @@ public class Perfil {
 	public String name;
 	public long level;
 	public String invocador;
+	public Historico matches;
 	
-	public String key = "RGAPI-a6bde009-d455-4928-adfb-6a0bd4abc88d";
+	public String key = "RGAPI-f79892b8-2b58-4712-b4b2-1c27900bb464";
 	
 	public Perfil(String invocador) throws Exception {
 		JSONObject perfil_json = new JSONObject(buscaPerfil(invocador));
@@ -36,9 +37,9 @@ public class Perfil {
 		System.out.println("id:" + perfil_json.get("id"));
 		System.out.println("puuid: " +perfil_json.get("puuid"));
 		this.setPuuid(perfil_json.get("puuid").toString());
-		
-		
 		System.out.println("accountId: " + perfil_json.get("accountId"));
+		
+		this.matches = new Historico(this);
 
 	}
 	
