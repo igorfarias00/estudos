@@ -2,12 +2,17 @@ package perfilLol;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.http.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.net.URL;
 import java.net.HttpURLConnection;
+
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -25,7 +30,91 @@ public class Partida {
 		
 		System.out.println(match);
 		
+		if(this.createHTML()) {
+			this.writeHTML(this.jsonToHtml(match));
+		} else {
+			System.out.println("FAIL");
+		}
+		
 	}
+	
+	public boolean createHTML() throws Exception {
+		try {
+		      File myObj = new File("partida.html");
+		      
+		     
+		      if (myObj.createNewFile()) {
+		        System.out.println("File created: " + myObj.getName());
+		      } else {
+		        System.out.println("File already exists.");
+		      }
+		      return true;
+		      
+		} catch (IOException e) {
+		      System.out.println("An error occurred.");
+		      e.printStackTrace();
+		      return false;
+	    }
+	}
+	
+	
+	public void writeHTML(String html) {
+	    try {
+	        FileWriter myWriter = new FileWriter("partida.html");
+	        myWriter.write(html);
+	        myWriter.close();
+	        System.out.println("Successfully wrote to the file.");
+	        
+	    } catch (IOException e) {
+	        System.out.println("An error occurred.");
+	        e.printStackTrace();
+	    }
+	}
+	
+	private String jsonToHtml( Object obj ) {
+	    StringBuilder html = new StringBuilder( );
+
+	    try {
+	        if (obj instanceof JSONObject) {
+	            JSONObject jsonObject = (JSONObject)obj;
+	            String[] keys = JSONObject.getNames( jsonObject );
+
+	            html.append("<div class=\""+ keys[0] +"\">");
+
+	            if (keys.length > 0) {
+	                for (String key : keys) {
+	                    // print the key and open a DIV
+	                	//System.out.println(key);
+	                    html.append("<div><span id=\""+ key +"\">")
+	                        .append(key).append("</span> : ");
+
+	                    Object val = jsonObject.get(key);
+	                    // recursive call
+	                    html.append( jsonToHtml( val ) );
+	                    // close the div
+	                    html.append("</div>\n");
+	                }
+	            }
+
+	            html.append("</div>");
+
+	        } else if (obj instanceof JSONArray) {
+	            JSONArray array = (JSONArray)obj;
+	            for ( int i=0; i < array.length( ); i++) {
+	                // recursive call
+	                html.append( jsonToHtml( array.get(i) ) );                    
+	            }
+	        } else {
+	            // print the value
+	            html.append( obj );
+	        }                
+	    } catch (JSONException e) { return e.getLocalizedMessage( ) ; }
+
+	    return html.toString( );
+	}
+	
+	
+	
 	
 	
 	 public String buscaPartida(String matchId) throws Exception {
