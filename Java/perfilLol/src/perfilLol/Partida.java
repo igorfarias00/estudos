@@ -36,6 +36,8 @@ public class Partida {
 			System.out.println("FAIL");
 		}
 		
+		System.out.println(match.getJSONObject("metadata").get("participants"));
+		
 	}
 	
 	public boolean createHTML() throws Exception {
@@ -85,14 +87,41 @@ public class Partida {
 	                for (String key : keys) {
 	                    // print the key and open a DIV
 	                	//System.out.println(key);
-	                    html.append("<div><span id=\""+ key +"\">")
-	                        .append(key).append("</span> : ");
+	                	//System.out.println(key);
+	                	if(key == "participants") {
+	                		Object val = jsonObject.getJSONObject("metadata").get(key);
+	                		String valS = val.toString();
+	                		String[] participants;
+	                		valS.replace("[", "");
+	                		valS.replace("]", "");
+	                		participants = valS.split(",");
+	                		
+	                		
+		                    html.append("<div><span id=\""+ key +"\"></span> : " );
+		                    
+		                    for(int i= 0; i < participants.length; i++) {
+		                    	System.out.println(participants[i]);
+		                    	 html.append(key).append("<span id=\""+ key + ""+ i +" \">");
+				                    // recursive call
+				                 html.append(participants[i]);
+				                    // close the div
+				                 html.append("</span></div>\n");
+		                    }
+	                       
 
-	                    Object val = jsonObject.get(key);
-	                    // recursive call
-	                    html.append( jsonToHtml( val ) );
-	                    // close the div
-	                    html.append("</div>\n");
+		                    
+
+	                		
+	                	} else {
+		                    html.append("<div><span id=\""+ key +"\">")
+		                        .append(key).append("</span> : <span id=\""+ key + "Value \">");
+	
+		                    Object val = jsonObject.get(key);
+		                    // recursive call
+		                    html.append( jsonToHtml( val ) );
+		                    // close the div
+		                    html.append("</span></div>\n");
+	                	}
 	                }
 	            }
 
