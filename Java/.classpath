@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Alura/Java-Polimorfismo/bytebank-encapsulado/src"/>
+	<classpathentry kind="src" path="Alura/Java-Polimorfismo/bytebank-herdado/src"/>
+	<classpathentry kind="src" path="beecrowd/src"/>
+	<classpathentry kind="src" path="bytebank-encapsulado/src"/>
+	<classpathentry kind="src" path="bytebank-herdado/src"/>
+	<classpathentry kind="src" path="estruturaDeDados_alura/src"/>
+	<classpathentry kind="src" path="JavaPOOCursoEmVideo/src"/>
+	<classpathentry kind="src" path="perfilLol/src"/>
+	<classpathentry kind="src" path="Teste/src"/>
+	<classpathentry kind="lib" path="perfilLol/jar/json-20220924.jar"/>
+	<classpathentry kind="output" path="Alura/Java-Polimorfismo/bytebank-encapsulado/bin"/>
+</classpath>
