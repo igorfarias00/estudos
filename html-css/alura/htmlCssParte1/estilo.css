@@ -1,0 +1,98 @@
+body {
+    
+
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+#banner {
+    width: 100%;
+    background: #cccccc;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+
+p {
+    text-align: center;
+ 
+}
+
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.item {
+    
+    font-style: italic;
+}
+
+.imagemBeneficios {
+    display: inline;
+    width: 50%;
+}
+
+
+/* -----------------    produtos      --------------------------------*/
+
+#banner a{
+    padding: 25px;
+    vertical-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#banner li{
+    margin: 0 0 0 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+#produtos {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#produtos figure{
+    
+    padding: 10px;
+    border-radius: 25px;
+    border: 5px solid black;
+    display: inline-block;
+    transition: 500ms;
+}
+
+#produtos figure:hover{
+    box-shadow: 5px 10px black;
+}
