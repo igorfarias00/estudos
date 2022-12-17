@@ -4,36 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getDocumentById('teste')</code> é um comando em javascript</p>
-    <pre>
-    <code>
-num - int(input('Digite um numero: '))
-if num % 2 == 0:
-    printf("é par")
-else:
-    printf('é Impar')
-    </code>
-    </pre>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I" start="2">
+        <li>Acordar</li>
+        <li>Ligar para o João
+        <li>Tomar café</li>
+        <li>almoçar</li>
+        <li>dormir</li>
+        <li>Ligar para o João
+        <li>jantar</li>
+        <li>Escovar os dentes</li>
+    </ol>
 
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+    </ul>
 
-    <h2>Citações completas</h2>
-    <p>Segundo jeff noble, no seu livro HTML para leigos:</p>
-    <blockquote citie="URL DA CITAÇÂO">
-        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capitulo descrevem os blocos de texto 
-    </blockquote>
+    <h2>Juntando listas </h2>
+    <ol>
+        <li>Antigas</li>
+        <ol>
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol>
+            <li>PHP</li>
+            <li>Python</li>
+            <li>javascript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
 
-    <h2>Abreviações</h2>
-    <p> Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascating StyleSheet">CSS</abbr>. Estou adorando</p>
 
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl"> Estou aprendendo a criar coisas em html</bdo></p>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario Bros</li>
+            <li>Ninja gaiden</li>
+            <li>contra</li>
+        </ul>
+        <li>Nintendo64</li>
+        <ul>
+            <li>007: Goldeneye</li>
+            <li>Mario3D</li>
+        </ul>
+        <li>Playstation</li>
+        <ul>
+            <li>Fifa</li>
+            <li>Crash</li>
+        </ul>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a acriação do design de um site</dd>
+
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
 
 </body>
 </html>
