@@ -1,0 +1,15 @@
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\bin\Debug\net6.0\ConsoleEx000.exe
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\bin\Debug\net6.0\ConsoleEx000.deps.json
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\bin\Debug\net6.0\ConsoleEx000.runtimeconfig.json
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\bin\Debug\net6.0\ConsoleEx000.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\bin\Debug\net6.0\ConsoleEx000.pdb
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.csproj.AssemblyReference.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.AssemblyInfoInputs.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.AssemblyInfo.cs
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.csproj.CoreCompileInputs.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\refint\ConsoleEx000.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.pdb
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ConsoleEx000.genruntimeconfig.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\Ex000\ConsoleEx000\ConsoleEx000\obj\Debug\net6.0\ref\ConsoleEx000.dll
