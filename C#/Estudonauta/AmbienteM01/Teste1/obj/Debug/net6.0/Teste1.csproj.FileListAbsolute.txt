@@ -1,0 +1,15 @@
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\bin\Debug\net6.0\Teste1.exe
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\bin\Debug\net6.0\Teste1.deps.json
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\bin\Debug\net6.0\Teste1.runtimeconfig.json
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\bin\Debug\net6.0\Teste1.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\bin\Debug\net6.0\Teste1.pdb
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.csproj.AssemblyReference.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.AssemblyInfoInputs.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.AssemblyInfo.cs
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.csproj.CoreCompileInputs.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\refint\Teste1.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.pdb
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\Teste1.genruntimeconfig.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\Teste1\obj\Debug\net6.0\ref\Teste1.dll
