@@ -1,4 +1,4 @@
-package beecrowd;
+package basic;
 
 
 class Roots {

@@ -1,4 +1,4 @@
-package beecrowd;
+package basic;
 
 public class QuadraticEquation {
     public static Roots findRoots(double a, double b, double c) {
