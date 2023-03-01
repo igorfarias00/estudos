@@ -1,0 +1,16 @@
+coisa = input('Digite algo ai, meu rei: ')
+
+print('O tipo primitivo é: {}'.format(type(coisa)))
+
+print('É numerico? {}'.format(coisa.isnumeric()))
+print('É alfanumerico? {}'.format(coisa.isalnum()))
+print('É alfabetico? {}'.format(coisa.isalpha()))
+print('É Maiuscula? {}'.format(coisa.isupper()))
+print('É minuscula? {}'.format(coisa.islower()))
+print('É ASCII? {}'.format(coisa.isascii()))
+print('É decimal?  {}'.format(coisa.isdecimal()))
+print('É digito? {}'.format(coisa.isdigit()))
+print('É printavel? {}'.format(coisa.isprintable()))
+print('É espaço? {}'.format(coisa.isspace()))
+print('É capitalizada? {}'.format(coisa.istitle()))
+print('É um identificado? {}'.format(coisa.isidentifier()))
