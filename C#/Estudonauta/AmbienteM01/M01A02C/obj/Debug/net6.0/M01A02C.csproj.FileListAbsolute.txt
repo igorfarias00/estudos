@@ -1,0 +1,15 @@
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\bin\Debug\net6.0\M01A02C.exe
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\bin\Debug\net6.0\M01A02C.deps.json
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\bin\Debug\net6.0\M01A02C.runtimeconfig.json
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\bin\Debug\net6.0\M01A02C.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\bin\Debug\net6.0\M01A02C.pdb
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.csproj.AssemblyReference.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.AssemblyInfoInputs.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.AssemblyInfo.cs
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.csproj.CoreCompileInputs.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\refint\M01A02C.dll
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.pdb
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\M01A02C.genruntimeconfig.cache
+C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02C\obj\Debug\net6.0\ref\M01A02C.dll
