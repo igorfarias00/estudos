@@ -15,6 +15,8 @@ elif opcao == 3:
     desconto = 0
 elif opcao == 4:
     acrescimo = valor * 0.20
+else:
+    print('Opcao invalida!')
 
 valorFinal = (valor - desconto) + acrescimo
 print('O preco final é {}'.format(valorFinal))
