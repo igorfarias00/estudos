@@ -7,7 +7,7 @@ maquina = random.choice(opcao)
 if jogador in opcao:
     if jogador == maquina:
         print('Empate')
-    elif jogador == "tesoura" and maquina == "pedra" or jogador == "papel" and maquina == "tesoura" or jogador == "pedra" and maquina == "papel":
+    elif jogador == "tesoura" and maquina == "pedra" or jogador == "papel" and maquina == "tesoura" or jogador == "pedra " and maquina == "papel":
         print("Maquina ganhou")
     else:
         print("Jogador ganhou!!")
