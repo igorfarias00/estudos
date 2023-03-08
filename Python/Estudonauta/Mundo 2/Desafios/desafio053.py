@@ -8,6 +8,10 @@ for c in range(0, len(frase)):
     fraseSem += frase[c]
 '''print(fraseSem)'''
 
+junto = ''.join(frase)
+
+inverso = frase[::-1]
+
 for c in range(len(fraseSem)-1, -1, -1):
     '''print(c)
     print((len(fraseSem)-1) - c)'''
