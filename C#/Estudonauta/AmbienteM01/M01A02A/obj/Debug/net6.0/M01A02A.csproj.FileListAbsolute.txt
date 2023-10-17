@@ -13,3 +13,18 @@ C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A0
 C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.pdb
 C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.genruntimeconfig.cache
 C:\Users\e.igor.farias\Documents\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\ref\M01A02A.dll
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\bin\Debug\net6.0\M01A02A.exe
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\bin\Debug\net6.0\M01A02A.deps.json
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\bin\Debug\net6.0\M01A02A.runtimeconfig.json
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\bin\Debug\net6.0\M01A02A.dll
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\bin\Debug\net6.0\M01A02A.pdb
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.csproj.AssemblyReference.cache
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.AssemblyInfoInputs.cache
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.AssemblyInfo.cs
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.csproj.CoreCompileInputs.cache
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.dll
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\refint\M01A02A.dll
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.pdb
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\M01A02A.genruntimeconfig.cache
+C:\Users\e.igor.farias\OneDrive - Banco Regional de Desenvolvimento do Extremo Sul\Documentos\GitHub\estudos\C#\Estudonauta\AmbienteM01\M01A02A\obj\Debug\net6.0\ref\M01A02A.dll
